@@ -1,0 +1,22 @@
+Algoritmo sin_titulo
+		mayorEdad = 0
+		menorEdad = 90
+		
+		Para i <- 1 Hasta 20 Hacer
+			aleatori0 = 0 + azar(90)
+			Mostrar "Edad: ",aleatori0
+			
+			si aleatori0 > mayorEdad Entonces
+				mayorEdad = aleatori0
+				
+			SiNo
+				
+				si aleatori0 < menorEdad Entonces
+					menorEdad = aleatori0
+				FinSi
+			FinSi
+		FinPara
+		
+		Mostrar "La edad mayor es ",mayorEdad, " años y la menor edad es de ",menorEdad," años"
+FinAlgoritmo
+
